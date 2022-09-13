@@ -17,5 +17,9 @@ public class Calculator {
 	public double doDiv(double num1, double num2) {
 		return num1 / num2;
 	}
+	public double doIncrementByOne(double num1)
+	{
+		return doAdd(num1, 1);
+	}
 
 }
