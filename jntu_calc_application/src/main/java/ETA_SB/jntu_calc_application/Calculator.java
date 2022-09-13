@@ -21,6 +21,7 @@ public class Calculator {
 	{
 		return doAdd(num1, 1);
 	}
+
 	public double doFact(double num1) {
 		if( num1 == 0 )
 		{
@@ -30,6 +31,9 @@ public class Calculator {
 		{
 			return doMul(num1,doFact(num1-1));
 		}
+	}
+	public double doSumOfN(double num1) {
+		return doDiv(doMul(num1,num1+1),2);
 	}
 
 }
