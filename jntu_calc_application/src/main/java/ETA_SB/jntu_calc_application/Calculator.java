@@ -21,5 +21,8 @@ public class Calculator {
 	{
 		return doAdd(num1, 1);
 	}
+	public double doSumOfN(double num1) {
+		return doDiv(doMul(num1,num1+1),2);
+	}
 
 }
