@@ -17,10 +17,10 @@ public class Calculator {
 	public double doDiv(double num1, double num2) {
 		return num1 / num2;
 	}
-	public double doIncrementByOne(double num1)
-	{
-		return doAdd(num1, 1);
-	}
+	//public double doIncrementByOne(double num1)
+	//{
+	//	return doAdd(num1, 1);
+	//}
 
 	public double doFact(double num1) {
 		if( num1 == 0 )
